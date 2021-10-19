@@ -12,6 +12,9 @@
 	<!-- Link to Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
 	
@@ -31,24 +34,24 @@
 				
 
 				<ul id="profile-links" class="links">
-					<a href="../../index.html"><li>Home</li></a>
-					<a href="aboutme.html"><li>About</li></a>
-					<a href="myportfolio.html"><li>Portfolios</li></a>
-					<a href="contact.html"><li>Contact</li></a>	
+					<a class="font-weight-light text-body text-decoration-none" href="../../index.html"><li>Home</li></a>
+					<a class="font-weight-light text-body text-decoration-none" href="aboutme.html"><li>About</li></a>
+					<a class="font-weight-light text-body text-decoration-none" href="myportfolio.html"><li>Portfolios</li></a>
+					<a class="font-weight-light text-body text-decoration-none" href="contact.html"><li>Contact</li></a>	
 				</ul>
 
 
 				<ul id="social-media-links" class="links">
 					<li class="icon-box">
-						<a href="https://www.facebook.com/mr.aYeah" target="_blank"><i id="icon2" class="fab fa-facebook-square"></i></a>
+						<a href="https://www.facebook.com/mr.aYeah" target="_blank"><i id="icon2" class="fab fa-facebook-square text-body"></i></a>
 					</li>
 
 					<li class="icon-box">
-						<a href="https://www.instagram.com/mr.ayeah/" target="_blank"><i id="icon2" class="fab fa-instagram"></i></a>
+						<a href="https://www.instagram.com/mr.ayeah/" target="_blank"><i id="icon2" class="fab fa-instagram text-body"></i></a>
 					</li>
 
 					<li class="icon-box">
-						<a href="https://ph.linkedin.com/in/calvin-jay-bareja-15b9761b5" target="_blank"><i id="icon2" class="fab fa-linkedin"></i></a>
+						<a href="https://ph.linkedin.com/in/calvin-jay-bareja-15b9761b5" target="_blank"><i id="icon2" class="fab fa-linkedin text-body"></i></a>
 					</li>
 				</ul>
 						
@@ -58,13 +61,9 @@
 	<!-- End of Navbar -->
 
 	<div class="container">
-		<section id="resume paper">
-			<div>
-				<div>
-					<img src="../../source/resume-picture.jpg" alt="avatar" class="avatar">
-				</div>
-			</div>
-			<div>
+		<section class=row>
+			<img class="col-3 rounded" src="../../source/resume-picture.jpg" alt="avatar" class="avatar">
+			<div class="col-8">
 				<div class="my-name">Calvin Jay P. Bareja</div>
 				<div class="my-title">Officer in Charge - Navigational Watch / Full Stack Web Developer</div>
 				<div class="links">
@@ -77,7 +76,7 @@
 						<a href="tel:+63977-634-85-02" class="link-id">+639-77-634-85-02</a>
 					</div>
 				</div>
-				<p>I finished my contract as a Third Officer at Unitra Maritime Manila Inc. I am currently studying as a full stack web developer at Zuitt adding this to my current set of skills. I am aiming to become a Master Mariner in the future. </p>
+				<p>I finished my contract as a Third Officer at Interworld Shipping Corp. I am currently studying as a full stack web developer at Zuitt adding this to my current set of skills. I am aiming to become a Master Mariner in the future. </p>
 			</div>
 				
 		</section>
@@ -91,6 +90,19 @@
 					<div class="job">
 						<div class="job-title-container">
 							<div>
+								<div class="job-company">Interworld Shipping Corp.</div>
+								<div class="job-title">Third Officer</div>
+							</div>
+							<div>
+								December 2020 - September
+							</div>
+						</div> <!-- End of Job Title Container -->
+						<p>Hired as a Third Officer and served on a container vessel.</p>
+					</div> <!-- End of Job Container -->
+
+					<div class="job">
+						<div class="job-title-container">
+							<div>
 								<div class="job-company">Unitra Maritime Manila Inc.</div>
 								<div class="job-title">Third Officer / Able-Bodied Seaman</div>
 							</div>
@@ -98,7 +110,7 @@
 								December 2017 - August 2020
 							</div>
 						</div> <!-- End of Job Title Container -->
-						<p>Hired as an Able-bodied seafarer onboard a bulk-carrier and promoted to Third Officer on a General Cargo Ship.</p>
+						<p>Hired as a Able-bodied seafarer onboard a bulk-carrier and promoted to Third Officer on a General Cargo Ship.</p>
 					</div> <!-- End of Job Container -->
 
 					<div class="job">
@@ -164,7 +176,6 @@
 			 <ul>
 			 	<li>Javascript</li>
 			 	<li>CSS</li>
-			 	<li>Phyton</li>
 			 	<li>HTML</li>
 			 </ul>
 
@@ -186,6 +197,12 @@
 			</div>
 		</section>
 	</div>
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+	<!-- Personal JS -->
 	<script src="../scripts/aboutme.js"></script>
 </body>
 </html>
