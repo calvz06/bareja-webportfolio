@@ -58,43 +58,7 @@ ul {
 /*Responsiveness of Navbar*/
 
 @media only screen and (max-width: 768px) {
-	.nav-list {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.toggle {
-		display: block;
-		position: absolute;
-		right: 10px;
-	}
-
-	.nav-toggle {
-		height: 35px;
-		width: 35px;
-		background-color: white;
-		border-radius: 5px;
-		margin-top: 10px;
-	}
-
-	ul {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.links {
-		height: 0;
-		overflow: hidden;
-		transition: 0.5s;
-	}
-
-	.show-links {
-		transition: 0.5s;
-		height: 15rem;
-		display:flex;
-	}
-
+	
 }
 
 /*Profile Page*/
