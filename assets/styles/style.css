@@ -13,6 +13,7 @@ a {
 	color: black;		
 }
 
+
 /*Navbar*/
 
 .nav-list {
@@ -55,15 +56,10 @@ ul {
 	display: none;
 }
 
-/*Responsiveness of Navbar*/
-
-@media only screen and (max-width: 768px) {
-	
-}
 
 /*Profile Page*/
 
-#wholeprofile {
+/*#wholeprofile {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
@@ -178,3 +174,4 @@ ul {
 
 }
 
+*/
