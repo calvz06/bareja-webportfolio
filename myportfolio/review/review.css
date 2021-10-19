@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+	font-family: 'Oswald', sans-serif;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100px;
+}
+
+#our-review {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 50px;
+	width: 500px;
+	height: 50px;
+	padding-bottom: 12px;
+}
+
+.underline {
+	display: flex;
+	justify-content: center;
+}
+
+.underline-line {
+	background-color: #66CEDF;
+	height: 8px;
+	width: 100px;
+}
+
+/*Article*/
+.avatar {
+	vertical-align: middle;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.review-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.review {
+	text-align: center;
+	margin-top: 24px;
+	padding: 24px 24px 24px 24px;
+	width: 700px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+
+#author {
+	margin-bottom: 12px;
+	font-size: 24px;
+}
+
+#job {
+	margin-bottom: 12px;
+	color: blue;
+	text-transform: uppercase;
+
+}
+
+#toggle-btn {
+	height: 30px;
+	width: 30px;
+	border: none;
+	background-color: white;
+	color: blue;
+	font-size: 40px;
+	margin: 12px 12px;
+}
+
+#toggle-btn:hover {
+	font-weight: bold;
+}
+
+#random-btn {
+	height: 30px;
+	width: 100px;
+	background-color: #26D1EC;
+	border: 2px solid #25BDD5;
+	border-radius: 5px;
+	color: blue;
+}
+
+#random-btn:hover {
+	font-weight: bold;
+	border-color: #25BDD5;
+}

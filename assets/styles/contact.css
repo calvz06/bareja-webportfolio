@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #8FAEF5;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+/*Sidebar*/
+
+li {
+	list-style-type: none;
+}
+
+#profile-links li {
+	font-size: 26px;
+}
+
+#profile-links li:hover {
+	background-color: black;
+	color: white;
+	padding-left: 12px;
+	transition: 0.5s ease;
+}
+
+#social-media-links li {
+	font-size: 36px;
+}
+
+#social-media-links i:hover {
+	color: blue;
+}
+
+img {
+	height: 50px;
+	width: 100px;
+}
+
+.my-sidebar {
+	background-color: white;
+	position: fixed;
+	height: 100%;
+	width: 25%;
+	transition: 0.5s;
+	transform: translate(-100%);
+}
+
+.show-sidebar {
+	transform: translate(0);
+	transition: 0.5s;
+}
+
+#social-media-links {
+	display: flex;
+	justify-content: center;
+}
+
+.toggle {
+	position: fixed;
+	right: 15px;
+	padding-top: 10px;
+	height: 20px;
+	width: 20px;
+}
+
+.nav-toggle {
+	color: black;
+	background-color: inherit;
+	border: none;
+	font-size: 24px;
+}
+
+li {
+	margin: 12px 0px 12px 0px;
+}
+
+#icon2 {
+	margin: 0px 12px;
+}

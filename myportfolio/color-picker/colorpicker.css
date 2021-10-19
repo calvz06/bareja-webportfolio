@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border: 8px solid black;
+	margin: 25px 300px;
+	font-size: 48px;
+	border-radius: 10px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border: 3px solid black;
+	width: 500px;
+	height: 150px;
+	border-radius: 10px;
+}
+main .content-container {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	height: 36px;
+	width: 100px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+button:hover {
+	font-weight: bold;
+}

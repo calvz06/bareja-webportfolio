@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;		
+}
+/*Navbar*/
+
+.nav-list {
+	display: grid;
+	grid-template-columns: 3fr 5fr 1fr;
+	grid-gap: 10px 
+}
+
+.logo {
+	height: 60px;
+	width: 120px;
+}
+
+li {
+	list-style-type: none;
+	padding: 0px 12px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+li::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+}
+
+.toggle {
+	display: none;
+}
+
+/*Responsiveness of Navbar*/
+
+@media only screen and (max-width: 768px) {
+	.nav-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.toggle {
+		display: block;
+		position: absolute;
+		right: 10px;
+	}
+
+	.nav-toggle {
+		height: 35px;
+		width: 35px;
+		background-color: white;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.links {
+		height: 0;
+		overflow: hidden;
+		transition: 0.5s;
+	}
+
+	.show-links {
+		transition: 0.5s;
+		height: 15rem;
+		display:flex;
+	}
+
+}
+
+/*Whole Section*/
+.portfolio-section {
+	padding: 36px;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*Portfolio Cards*/
+
+img {
+	height: 50%;
+	width: 100%;
+
+}
+
+.portfolio-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 35%;
+	width: 30%;
+	border: 2px solid black;
+	padding: 12px;
+	border-radius: 5px;
+	margin: 12px;
+}
+
+p {
+	text-align: justify;
+}
+
+.portfolio-link {
+	margin: 5px 0px 5px 0px;
+	font-size: 24px;
+}
+
+.portfolio-link::after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0px;
+	background: black;
+	transition: 0.5s;
+}
+
+.portfolio-link:hover::after {
+	width: 100%;
+	transition: 0.5s;	
+}
+
+.portfolio-link:hover {
+	font-weight: bold;
+}

@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+/*Centering the Div as a whole*/
+
+body {
+	margin-top: 15vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: #BBE9F8;
+}
+
+.section-center {
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	height: 50vh;
+	width: 50vw;
+	background: white;
+	border-radius: 10px;
+	margin: 24px;
+	padding: 24px;
+}
+
+/*Title CSS*/
+
+#program-id {
+	font-weight: bold;
+	font-size: 24px;
+	margin: 12px 0;
+	text-align: center;
+}
+
+/*Form Control*/
+
+.form-control {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*Form of the Grocery List*/
+
+#grocery {
+	height: 36px;
+	border-radius: 10px 0 0 10px;
+	border: none;
+	background: #C6CBCD;
+	padding: 5px;
+	width: 270px;
+}
+
+.submit-btn {
+	height: 36px;
+	border-radius: 0 10px 10px 0px;
+	background: #37BCE7;
+	color: white;
+	padding: 5px;
+	border: none;
+}
+
+/*Grocery Item List*/
+
+.grocery-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.grocery-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 300px;
+	visibility: hidden;
+}
+
+.show-container {
+	visibility: visible;
+}
+
+#grocery-btn {
+	border: none;
+	background: none;
+}
+
+.btn-container {
+	padding-top: 10px;
+}
+
+.title {
+	margin: 12px;
+}
+
+/*Font Awesome Buttons*/
+ .fas.fa-edit {
+ 	color: #4AD21A;
+ }
+
+.fas.fa-trash {
+	color: #F50B0B;
+}
+
+/*Clear button CSS*/
+.clear-btn {
+	border: none;
+	background: none;
+	color: #F12A2A;
+	font-weight: bold;
+}
+
+#btn-clear {
+	display: flex;
+	justify-content: center;
+
+}
+
+/*Alert Promt*/
+
+.alert {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.alert-danger {
+	color: #721c24;
+	background: #f8d7da;
+}
+
+.alert-success {
+	color: #155724;
+	background: #d4edda;
+}
+
