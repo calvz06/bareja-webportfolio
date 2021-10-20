@@ -27,14 +27,14 @@ a {
 	width: 120px;
 }
 
-li {
+#nav a {
 	list-style-type: none;
 	padding: 0px 12px;
 	font-size: 24px;
 	font-weight: bold;
 }
 
-li::after {
+#nav a::after {
   content: '';
   width: 0px;
   height: 1px;
@@ -43,7 +43,7 @@ li::after {
   transition: 300ms;
 }
 
-li:hover::after {
+#nav a:hover::after {
   width: 100%;
 }
 
